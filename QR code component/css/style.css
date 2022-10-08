@@ -10,15 +10,7 @@
   min-height: 100%;
   justify-content: center;
 }
-@media (max-width: 400px) {
-  .container {
-    min-width: 375px;
-  }
-  .card-code {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
+
 .card-code {
   display: flex;
   width: 360px;
@@ -44,4 +36,13 @@ p {
 p {
   padding-left: 30px;
   padding-right: 30px;
+}
+@media (max-width: 400px) {
+  .container {
+    min-width: 375px;
+  }
+  .card-code {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
