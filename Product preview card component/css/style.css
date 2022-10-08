@@ -5,6 +5,8 @@
 .container {
   margin: 100px auto;
   width: 1440px;
+  min-width: 360px;
+  min-height: 512px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,7 +60,6 @@ a {
   .prod-container {
     margin: auto;
     width: 360px;
-    box-sizing: border-box;
     grid-template-columns: 1fr;
   }
 }
