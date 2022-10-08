@@ -1,0 +1,64 @@
+/*global config*/
+@import url(./global.css);
+@import url(./components.css);
+
+.container {
+  margin: 100px auto;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prod-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  width: 720px;
+}
+.prod-img {
+  width: 360px;
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+  object-position: left;
+}
+.prod-content {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 30px;
+  padding: 34px;
+  text-align: left;
+  background-color: var(--w0);
+  border-radius: 0 10px 10px 0;
+}
+.prod-content > *:first-child {
+  display: flex;
+  align-items: center;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+a {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 400px) {
+  .container {
+    width: 375px;
+  }
+  .prod-img {
+    border-radius: 10px 10px 0 0;
+  }
+  .prod-content {
+    border-radius: 0 0 10px 10px;
+  }
+  .prod-container {
+    margin: auto;
+    width: 360px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+  }
+}

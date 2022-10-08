@@ -1,0 +1,55 @@
+:root {
+  --p1: hsl(158, 36%, 37%);
+  --p2: hsl(30, 38%, 92%);
+  --n1: hsl(228, 12%, 48%);
+  --n2: hsl(212, 21%, 14%);
+  --n3: #204234;
+  --w0: hsl(0, 0%, 100%);
+  --font-1: 500 0.875rem "Montserrat", sans-serif;
+  --font-1-b: 700 0.875rem "Montserrat", sans-serif;
+  --font-1-u: 500 0.875rem "Montserrat", sans-serif;
+  --font-1-lt: 500 0.875rem "Montserrat", sans-serif;
+  --font-2: 700 2.5rem "Fraunces", sans-serif;
+}
+.font-1 {
+  font: var(--font-1);
+}
+.font-1-b {
+  font: var(--font-1-b);
+}
+.font-1-u {
+  font: var(--font-1-u);
+  text-transform: uppercase;
+  letter-spacing: 0.66em;
+}
+.font-1-lt {
+  font: var(--font-1-lt);
+  text-decoration-line: line-through;
+}
+.font-2 {
+  font: var(--font-2);
+}
+
+.color-p1 {
+  color: var(--p1);
+}
+.color-p2 {
+  color: var(--p2);
+}
+.color-n1 {
+  color: var(--n1);
+}
+.color-n2 {
+  color: var(--n2);
+}
+.color-w0 {
+  color: var(--w0);
+}
+.btn {
+  background-color: var(--p1);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: var(--n3);
+}
