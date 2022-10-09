@@ -18,8 +18,8 @@
   flex-direction: column;
   background-color: var(--color-dblue-bg-2);
   border-radius: 15px;
-  box-shadow: -15px 15px 20px rgba(0, 0, 0, 0.3),
-    15px 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: -15px 15px 30px rgba(0, 0, 0, 0.1),
+    15px 15px 30px rgba(0, 0, 0, 0.1);
 }
 .imgs {
   display: flex;
