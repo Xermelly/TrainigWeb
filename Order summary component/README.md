@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-previer-card-pugVijVz5d)
-- Live Site URL: [Vercel](https://nftpreviewcard-five.vercel.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-card-AJCnuYyOeX)
+- Live Site URL: [Repl](https://ordersummary.xermelly.repl.co/)
 
 ## My process
 
