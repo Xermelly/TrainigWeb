@@ -1,0 +1,133 @@
+/*global configs*/
+@import url(./components.css);
+@import url(./global.css);
+
+.container {
+  margin: auto;
+  max-width: 1440px;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 300px;
+  height: 550px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-dblue-bg-2);
+  border-radius: 15px;
+  box-shadow: -15px 15px 20px rgba(0, 0, 0, 0.3),
+    15px 15px 20px rgba(0, 0, 0, 0.3);
+}
+.imgs {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.img-hover {
+  position: absolute;
+  opacity: 0;
+  padding: 126px;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+.img-hover:hover {
+  background-color: rgba(0, 255, 247, 0.5);
+  opacity: 1;
+}
+.imgs > img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.imgs > img:hover {
+  cursor: pointer;
+}
+.card-container h1,
+.card-container p,
+.bottom-info,
+.credits {
+  padding-top: 20px;
+}
+.card-container h1 {
+  font-size: 22px;
+}
+.card-container h1:hover,
+.credits span:hover {
+  color: var(--color-cyan);
+}
+.card-container > p {
+  text-align: left;
+}
+.bottom-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--color-dblue-line);
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+.bottom-info p {
+  position: relative;
+  padding-left: 21px;
+  display: flex;
+  align-items: center;
+}
+.bottom-info > p {
+  font-size: 1rem;
+}
+.bottom-info > p::before {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 18px;
+  background: url(../images/icon-ethereum.svg) no-repeat;
+  position: absolute;
+  left: 0;
+}
+.bottom-info p + p {
+  font-size: 0.875rem;
+}
+.bottom-info p + p::before {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: url(../images/icon-clock.svg) no-repeat;
+  position: absolute;
+  left: 0;
+}
+.credits {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.credits img {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+}
+.credits p,
+span {
+  padding: 0;
+  font-size: 0.875rem !important;
+}
+@media (max-width: 400px) {
+  .container {
+    max-width: 375px;
+    margin: auto 30px;
+  }
+  .img-hover {
+    padding: 100px;
+  }
+}
+@media (max-width: 350px) {
+  .img-hover {
+    padding: 70px;
+  }
+}

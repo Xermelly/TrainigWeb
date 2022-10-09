@@ -1,0 +1,38 @@
+:root {
+  --color-sblue: hsl(215, 51%, 70%);
+  --color-cyan: rgb(0, 255, 247);
+  --color-dblue-bg: hsl(217, 54%, 11%);
+  --color-dblue-bg-2: hsl(216, 50%, 16%);
+  --color-dblue-line: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+  --font-300: 300 1.125rem/1.3 "Outfit", sans-serif;
+  --font-400: 400 1.125rem/1.3 "Outfit", sans-serif;
+  --font-600: 600 1.125rem/1.3 "Outfit", sans-serif;
+}
+.color-sblue {
+  color: var(--color-sblue);
+}
+.color-cyan {
+  color: var(--color-cyan);
+}
+.color-dblue-bg {
+  color: var(--color-dblue-bg);
+}
+.color-dblue-bg-2 {
+  color: var(--color-dblue-bg-2);
+}
+.color-dblue-line {
+  color: var(--color-dblue-line);
+}
+.color-white {
+  color: var(--color-white);
+}
+.font-300 {
+  font: var(--font-300);
+}
+.font-400 {
+  font: var(--font-400);
+}
+.font-600 {
+  font: var(--font-600);
+}
